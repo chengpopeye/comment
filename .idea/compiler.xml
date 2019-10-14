@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="comment.admin.main" target="1.8" />
+      <module name="comment.admin.test" target="1.8" />
+      <module name="comment.core.main" target="1.8" />
+      <module name="comment.core.test" target="1.8" />
+      <module name="comment.main" target="1.8" />
+      <module name="comment.model.main" target="1.8" />
+      <module name="comment.model.test" target="1.8" />
+      <module name="comment.test" target="1.8" />
+      <module name="comment.web.main" target="1.8" />
+      <module name="comment.web.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

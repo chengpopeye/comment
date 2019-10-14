@@ -1,0 +1,36 @@
+apply plugin : 'maven-publish'
+
+
+
+dependencies {
+    // core 依赖 model 子模块
+    // 模块的依赖使用project(":模块名")方式
+    compile project(":model")
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+//配置发布任务
+publishing {
+    publications {
+        // publishProject 为自定义名称，可写多个发布任务
+        publishProject(MavenPublication){
+            from components.java  //发布 jar包
+            //from components.war // 发布war包
+        }
+
+
+    }
+    //配置发布到哪里
+    repositories {
+        maven {
+            //指定要上传的maven 私服仓库
+            url = ""
+            // 认证用户和密码
+            credentials {
+              //  username = "root"
+               // password = "admin"
+            }
+        }
+    }
+}
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/comment.iml" filepath="$PROJECT_DIR$/.idea/modules/comment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/admin/comment.admin.iml" filepath="$PROJECT_DIR$/.idea/modules/admin/comment.admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/admin/comment.admin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/admin/comment.admin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/admin/comment.admin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/admin/comment.admin.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/comment.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/comment.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/comment.core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/comment.core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/comment.core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/core/comment.core.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/comment.main.iml" filepath="$PROJECT_DIR$/.idea/modules/comment.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/model/comment.model.iml" filepath="$PROJECT_DIR$/.idea/modules/model/comment.model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/model/comment.model.main.iml" filepath="$PROJECT_DIR$/.idea/modules/model/comment.model.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/model/comment.model.test.iml" filepath="$PROJECT_DIR$/.idea/modules/model/comment.model.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/comment.test.iml" filepath="$PROJECT_DIR$/.idea/modules/comment.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/comment.web.iml" filepath="$PROJECT_DIR$/.idea/modules/web/comment.web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/comment.web.main.iml" filepath="$PROJECT_DIR$/.idea/modules/web/comment.web.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/comment.web.test.iml" filepath="$PROJECT_DIR$/.idea/modules/web/comment.web.test.iml" />
+    </modules>
+  </component>
+</project>

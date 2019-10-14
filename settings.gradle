@@ -1,0 +1,6 @@
+rootProject.name = 'comment'
+include 'core'
+include 'model'
+include 'admin'
+include 'web'
+

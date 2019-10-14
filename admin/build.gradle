@@ -1,0 +1,38 @@
+apply plugin: 'war'
+apply plugin: "com.bmuschko.tomcat"
+
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "com.bmuschko:gradle-tomcat-plugin:2.5"
+    }
+}
+
+
+
+dependencies {
+    // 依赖 core 模块
+    compile project(":core")
+    def tomcatVersion = '8.0.42'
+    tomcat "org.apache.tomcat.embed:tomcat-embed-core:${tomcatVersion}",
+            "org.apache.tomcat.embed:tomcat-embed-logging-juli:${tomcatVersion}",
+            "org.apache.tomcat.embed:tomcat-embed-jasper:${tomcatVersion}"
+    //provideCompile：只在编译时依赖，运行环境下不需要   tomcat中有servlet的包
+    providedCompile('javax.servlet:javax.servlet-api:3.1.0')
+   // providedCompile group: 'javax.servlet', name: 'javax.servlet-api', version: '3.1.0'
+
+}
+
+
+//单一配置
+tomcat.httpPort = 80 //配置http端口
+tomcat.contextPath = '/' //配置上下路径
+
+//统一配置
+//tomcat{
+//    httpPort = 80  //配置http端口
+//    contextPath = '/' //配置上下文路径
+//}
